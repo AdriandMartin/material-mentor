@@ -1,0 +1,6 @@
+# Where things are
+url                 : https://adriandmartin.github.io/material-mentor
+source              : .
+layouts_dir         : _layouts
+includes_dir        : _includes
+markdown            : GFM

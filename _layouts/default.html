@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        {% include head.html %}
+    </head>
+
+    <body class="d-flex flex-column min-vh-100">
+        {% include nav.html %}
+
+        <div class="container justify-content-center" style="text-align: justify;">
+            {{ content }}
+        </div>
+
+        {% include footer.html %}
+    </body>
+
+</html>
